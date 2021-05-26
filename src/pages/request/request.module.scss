@@ -1,0 +1,86 @@
+.request {
+  width: 100%;
+}
+
+.create-btn {
+  background-color: rgb(0, 140, 240);
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.request__list {
+  width: 100%;
+  font-size: 16px;
+  font-family: "Ubuntu";
+  color: rgb(64, 65, 71);
+  line-height: 1.2;
+  text-align: left;
+
+
+  .id {
+    width: 10%;
+    text-align: center;
+  }
+
+  td.id {
+    border-left: 5px solid green;
+  }
+
+  td.status div{
+    width: 75%;
+    padding: 5px 2px;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .name {
+    width: 30%;
+  }
+
+  .status {
+    width: 10%;
+  }
+
+  .executor {
+    width: 50%;
+  }
+
+  thead {
+    margin-bottom: 50px;
+
+    th {
+      text-align: left;
+      padding-left: 8px;
+      border-right: 1px solid rgb(218, 224, 231);
+    }
+  }
+
+  tbody {
+
+    tr {
+      border-top: 1px solid rgb(218, 224, 231);
+      height: 50px;
+      padding-left: 8px;
+      cursor: pointer;
+    }
+
+    td {
+      font-size: 16px;
+      font-family: "Roboto";
+      color: rgb(82, 84, 96);
+      line-height: 1.2;
+      padding-left: 8px;
+    }
+  }
+}

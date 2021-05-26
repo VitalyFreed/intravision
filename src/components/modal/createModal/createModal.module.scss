@@ -1,0 +1,86 @@
+.wrapper {
+  width: 960px;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(26, 72, 118);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__text {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.111;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  &__icon {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+}
+
+.main {
+  border-left: 1px solid rgb(215, 220, 224);
+  background-color: rgb(236, 243, 247);
+  height: 100%;
+
+  &:hover {
+    border-radius: 1px;
+    border-left: 1px solid rgb(66, 170, 255);
+  }
+}
+
+.main__create {
+  padding-top: 40px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(159, 158, 167);
+    line-height: 1.714;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 250);
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    background-color: rgb(0, 140, 240);
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Ubuntu";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+  }
+}
